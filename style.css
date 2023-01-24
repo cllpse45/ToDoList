@@ -33,7 +33,13 @@ html, body{
 }
 
 .paragraph-styling{
-    font-size: 16px;
-    color:crimson;
+    width: 100px;
+    height: auto;
+    font-size: 11px;
+    color:rgb(22, 0, 0);
+    background-color: rgb(238, 204, 94);
+    max-width: 100%;
+    word-wrap: break-word;
+    padding: 7px;
     
 }

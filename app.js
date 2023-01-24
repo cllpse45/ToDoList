@@ -12,14 +12,15 @@ function addButton(){
     paragraph.innerText = inputData.value;
 
     sticker.appendChild(paragraph);
+    //empty input after sticked it
+    inputData.value="";
 
     paragraph.addEventListener("click", silme)
     function silme (){
         paragraph.style.textDecoration="line-through";
     }
-    
+  
     //if you double clicked you can remove selected paragraph
-    
     paragraph.addEventListener("dblclick", remove)
     function remove(){
         sticker.removeChild(paragraph);
@@ -27,4 +28,3 @@ function addButton(){
 
 
 }
-
